@@ -4,16 +4,17 @@
 ul {
    list-style-type: none;
    padding: 0; }
+
    .service-img {
       height: 200px;
       width: 360px;
    }
 
    hr {
-       border-top: 1px solid #ebefee;
-       margin-bottom: 30px;
-       margin-top: 30px;}
-       
+      border-top: 1px solid #ebefee;
+      margin-bottom: 30px;
+      margin-top: 30px;}
+
    .service-schedule {
       float: left;
       margin-right: 50px;
@@ -23,3 +24,11 @@ ul {
 .service-instructor {
    text-transform: uppercase;
    font-size: 14px;}
+
+   .trainers-img {
+      max-width: 100%;
+      height: 100%;
+      object-fit: cover;
+   }
+
+   
